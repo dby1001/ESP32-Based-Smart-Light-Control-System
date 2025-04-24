@@ -1,6 +1,11 @@
 
 # Technical Report Draft: ESP32-Based Smart Light Control System
 
+Code for this project :
+- Backend: server.js
+- Frontend: src folder
+- hardware esp32-led.ino
+
 ## 1. Introduction
 This project implements a fully functional smart light control system using ESP32 microcontrollers, AWS IoT Core, and a React-based web interface. Users can control IoT-connected lights in real-time from anywhere via secure MQTT over WebSockets. Authentication is handled through AWS Cognito. The purpose of this system is to demonstrate how cloud-based IoT solutions can be implemented with real-time responsiveness, user-specific access, and hardware-level automation.
 
